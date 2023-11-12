@@ -1,0 +1,1 @@
+for i in range(99,0,-1):print(f"{i} bottle{'s'*(i>1)} of beer on the wall, {i} bottle{'s'*(i>1)} of beer.\nTake one down and pass it around, {['no more',i-1][i>1]} bottle{'s'*(i-1!=1)} of beer on the wall.\n"+"\nNo more bottles of beer on the wall, no more bottles of beer.\nGo to the store and buy some more, 99 bottles of beer on the wall.\n"*(i==1))
